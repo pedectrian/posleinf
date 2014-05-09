@@ -1,0 +1,18 @@
+.header_right,
+.header_left,
+.header_left a img,
+.sf-menu li,
+.logo {
+    float: none !important;
+}
+.header_left {
+    width: auto !important;
+    text-align: center !important;
+}
+.sf-menu li {
+    display: inline-block !important;
+}
+.sf-menu li a, .sf-menu li a:visited {
+    font-size: 13px !important;
+    color: #333 !important;
+}
