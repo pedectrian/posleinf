@@ -1,18 +1,25 @@
-.header_right,
-.header_left,
-.header_left a img,
-.sf-menu li,
-.logo {
-    float: none !important;
+.sf-menu li a,
+.sf-menu li a:visited {
+    background: url("images/menu-sep.png") center right no-repeat;
+    width: 100px;
+    line-height: 17px;
 }
-.header_left {
-    width: auto !important;
-    text-align: center !important;
+.sf-menu li{
+    height: auto !important;
 }
-.sf-menu li {
-    display: inline-block !important;
+
+.slider_content h1 {
+    font-size: 44px;
+    margin-top: -35px;
+    line-height: 55px;
 }
-.sf-menu li a, .sf-menu li a:visited {
-    font-size: 13px !important;
-    color: #333 !important;
+
+.copyright_area {
+    margin-top: 0;
+}
+.copyright_left img {
+    margin-top: -10px;
+}
+.copyright_right {
+    width: 700px;
 }
