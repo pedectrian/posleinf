@@ -9,6 +9,7 @@
     background: url("images/menu-sep.png") center right no-repeat;
     width: 100px;
     line-height: 17px;
+    padding: 15px 10px 15px 5px !important;
 }
 .sf-menu li:nth-child(1) a,
 .sf-menu li:nth-child(2) a {
@@ -20,6 +21,9 @@
 .sf-menu li:nth-child(4) a {
     width: 160px !important;
 }
+.sf-menu li:nth-child(4) a {
+    width: 173px !important;
+}
 
 .sf-menu li:hover a,
 .sf-menu li.selected a,
@@ -30,6 +34,7 @@
 }
 .sf-menu li{
     height: auto !important;
+    margin-left: 0 !important;
 }
 
 .slider_content h1 {
