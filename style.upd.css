@@ -74,5 +74,7 @@ body * {
     color: #fff !important;
 }
 .wpb_alert-success.custom-success .messagebox_text {
-    background: url("images/alert-message-icon.png") no-repeat center;
+    background: url("images/alert-message-icon.png") no-repeat 140px 0;
+    padding: 7px 0 0 330px;
+    min-height: 100px;
 }
