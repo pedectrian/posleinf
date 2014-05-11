@@ -34,3 +34,27 @@
 body * {
     font-family: 'Calibri Regular', Arial, Helvetica, sans-serif !important;
 }
+
+.green-action-button,
+.orange-action-button,
+.velvet-action-button {
+    margin: 0 0 20px 20px;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none !important;
+    border: 1px solid;
+    padding: 10px;
+}
+
+.green-action-button {
+    color: #2fcc71;
+    border-color: #2fcc71;
+}
+.orange-action-button {
+    color: #e77e23;
+    border-color: #e77e23;
+}
+.velvet-action-button {
+    color: #9c59b8;
+    border-color: #9c59b8;
+}
