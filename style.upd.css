@@ -61,8 +61,8 @@ body * {
 }
 
 .page-header-file {
-    display: inline-block;
-    margin: 10px 0 20px 0;
+    display: inline-block !important;
+    margin: 10px 0 20px 0 !important;
     text-decoration: none !important;
 }
 
@@ -72,9 +72,17 @@ body * {
 
 .wpb_alert-success.custom-success p{
     color: #fff !important;
+    text-decoration: none !important
 }
 .wpb_alert-success.custom-success .messagebox_text {
     background: url("images/alert-message-icon.png") no-repeat 140px 0;
     padding: 7px 0 0 330px;
-    min-height: 100px;
+    min-height: 100px;;
+}
+
+.box_header:after {
+    width: auto !important;
+    height: 1px !important;
+    background: #c7c7c7 !important;
+    margin-top: 15px !important;
 }
