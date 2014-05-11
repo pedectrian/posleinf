@@ -17,13 +17,16 @@
 .sf-menu li:nth-child(3) a {
     width: 150px !important;
 }
+.sf-menu li:nth-child(4) a {
+    width: 145px !important;
+}
 
 .sf-menu li:hover a,
 .sf-menu li.selected a,
 .sf-menu li.current-menu-item a,
 .sf-menu li.current-menu-ancestor a {
     color: #1d89e4 !important;
-    border: none;
+    border: none !important;
 }
 .sf-menu li{
     height: auto !important;
