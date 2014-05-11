@@ -111,3 +111,11 @@ body * {
 .info_list ul {
     padding-left: 15px !important;
 }
+
+.info_list ul li {
+    color: #000 !important;
+    list-style: disc !important;
+    border: none !important;
+    padding-bottom: 0 !important;
+    font-size: 14px !important;
+}
