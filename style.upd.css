@@ -24,6 +24,9 @@
 .sf-menu li:nth-child(5) a {
     width: 173px !important;
 }
+.sf-menu li:nth-child(6) a {
+    width: 82px !important;
+}
 
 .sf-menu li:hover a,
 .sf-menu li.selected a,
