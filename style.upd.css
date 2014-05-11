@@ -15,11 +15,16 @@
 }
 
 .copyright_area {
+    padding: 0 0 25px 0 !important;
     margin-top: 0 !important;
 }
 .copyright_left img {
-    margin-top: -10px !important;
+    margin-top: -5px !important;
 }
 .copyright_right {
     width: 700px !important;
+}
+
+body * {
+    font-family: 'Open Sans', sans-serif;
 }
