@@ -114,6 +114,8 @@ body * {
 
 .info_list ul li {
     color: #000 !important;
-    list-style: circle !important;
+    list-style: disc !important;
     border: none !important;
+    padding-bottom: 0 !important;
+    font-size: 14px !important;
 }
