@@ -59,3 +59,20 @@ body * {
     color: #9c59b8;
     border-color: #9c59b8;
 }
+
+.page-header-file {
+    display: inline-block;
+    margin: 10px 0 20px 0;
+    text-decoration: none !important;
+}
+
+.wpb_alert-success .custom-success {
+    background: #2fcc71 !important;
+}
+
+.wpb_alert-success .custom-success p{
+    color: #fff !important;
+}
+.wpb_alert-success .custom-success .messagebox_text {
+    background: url("images/alert-message-icon.png") no-repeat center;
+}
