@@ -86,3 +86,24 @@ body * {
     background: #c7c7c7 !important;
     margin-top: 15px !important;
 }
+.light-blue-fire-icon,
+.light-blue-watch-icon,
+.light-blue-horn-icon {
+    width: 76px;
+    height: 88px;
+    margin: 15px 0 10px 0 !important;
+}
+.light-blue-fire-icon {
+    background: url("images/icons_large/blue_light/fire.png");
+}
+.light-blue-watch-icon {
+    background: url("images/icons_large/blue_light/watch.png");
+}
+.light-blue-horn-icon {
+    background: url("images/icons_large/blue_light/horn.png");
+}
+.light-blue-fire-icon img,
+.light-blue-watch-icon img,
+.light-blue-horn-icon img{
+    display: none !important;
+}
