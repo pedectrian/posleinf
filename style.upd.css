@@ -91,7 +91,7 @@ body * {
 .light-blue-horn-icon {
     width: 76px;
     height: 88px;
-    margin: 15px 0 10px 0 !important;
+    margin: 25px 0 35px 0 !important;
 }
 .light-blue-fire-icon {
     background: url("images/icons_large/blue_light/fire.png");
@@ -106,4 +106,8 @@ body * {
 .light-blue-watch-icon img,
 .light-blue-horn-icon img{
     display: none !important;
+}
+
+.info_list ul {
+    padding-left: 15px !important;
 }
