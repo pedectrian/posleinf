@@ -10,6 +10,21 @@
     width: 100px;
     line-height: 17px;
 }
+.sf-menu li:nth-child(0) a,
+.sf-menu li:nth-child(1) a {
+    width: 85px;
+}
+
+.sf-menu li:hover a,
+.sf-menu li.selected a,
+.sf-menu li.current-menu-item a,
+.sf-menu li.current-menu-ancestor a {
+    color: #1d89e4 !important;
+    background-color: #1d89e4 !important;
+}
+.sf-menu li:nth-child(2) a {
+    width: 150px;
+}
 .sf-menu li{
     height: auto !important;
 }
