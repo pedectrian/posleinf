@@ -9,27 +9,33 @@
     background: url("images/menu-sep.png") center right no-repeat;
     width: 100px;
     line-height: 17px;
-    padding: 15px 10px 15px 7px !important;
-    font-size: 14px;
+    padding: 15px 5px 15px 7px !important;
+    font-size: 12px !important;
 }
 .sf-menu li:first-child a {
     padding-left: 0 !important;
 }
-.sf-menu li:nth-child(1) a,
+
+.sf-menu li:nth-child(1) a {
+    width: 80px !important;
+}
 .sf-menu li:nth-child(2) a {
     width: 85px !important;
 }
 .sf-menu li:nth-child(3) a {
-    width: 150px !important;
+    width: 137px !important;
 }
 .sf-menu li:nth-child(4) a {
-    width: 157px !important;
+    width: 149px !important;
 }
 .sf-menu li:nth-child(5) a {
-    width: 173px !important;
+    width: 160px !important;
 }
 .sf-menu li:nth-child(6) a {
-    width: 82px !important;
+    width: 85px !important;
+}
+.sf-menu li:nth-child(6) a {
+    width: 97px !important;
 }
 
 .sf-menu li:hover a,
