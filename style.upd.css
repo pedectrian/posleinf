@@ -10,6 +10,10 @@
     width: 100px;
     line-height: 17px;
     padding: 15px 10px 15px 7px !important;
+    font-size: 14px;
+}
+.sf-menu li:first-child a {
+    padding-left: 0 !important;
 }
 .sf-menu li:nth-child(1) a,
 .sf-menu li:nth-child(2) a {
@@ -19,7 +23,7 @@
     width: 150px !important;
 }
 .sf-menu li:nth-child(4) a {
-    width: 160px !important;
+    width: 157px !important;
 }
 .sf-menu li:nth-child(5) a {
     width: 173px !important;
@@ -144,4 +148,9 @@ body * {
     border: none !important;
     padding-bottom: 0 !important;
     font-size: 14px !important;
+}
+
+.vc_span6 .vc_row-fluid .vc_span6
+{
+    width: 225px !important;
 }
