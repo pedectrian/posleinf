@@ -165,6 +165,6 @@ body * {
 .home_box h2, .home_box h2 a {
     width: 197px !important;
 }
-.home_box .news {
+.home_box .news .text {
     height: 65px !important;
 }
