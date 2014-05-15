@@ -4,6 +4,9 @@
     font-weight: normal;
     src: local('Calibri Regular'), url('fonts/CALIBRI.woff') format('woff');
 }
+body {
+    font-size: 14px !important;
+}
 .sf-menu li a,
 .sf-menu li a:visited {
     background: url("images/menu-sep.png") center right no-repeat;
@@ -125,6 +128,7 @@ body * {
     width: 76px;
     height: 88px;
     margin: 25px 0 35px 0 !important;
+    float: none !important;
 }
 .light-blue-fire-icon {
     background: url("images/icons_large/blue_light/fire.png");
@@ -156,4 +160,11 @@ body * {
 .vc_span6 .vc_row-fluid .vc_span6
 {
     width: 225px !important;
+}
+
+.home_box h2, .home_box h2 a {
+    width: 197px !important;
+}
+.home_box .news {
+    height: 65px !important;
 }
