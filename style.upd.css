@@ -180,6 +180,6 @@ div.wpcf7-response-output {
     padding: 15px !important;
 }
 
-.wpb_row .wpcf7-form {
-
+.ask-my-question-form {
+    display: none;
 }

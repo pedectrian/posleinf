@@ -862,7 +862,9 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
     width: 989px !important;
     margin: 10px 0 !important;
 }
-
+span.wpcf7-form-control-wrap {
+    vertical-align: top;
+}
 .footer_top_sidebar_container input[type="submit"],
 .wpb_row .wpcf7-form input[type="submit"]
 {
@@ -881,7 +883,8 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
     -webkit-border-radius: 6px;
 }
 
-.footer_top_sidebar_container input[type="submit"]:hover
+.footer_top_sidebar_container input[type="submit"]:hover,
+.wpb_row .wpcf7-form input[type="submit"]:hover
 {
     cursor: pointer;
     box-shadow: 0 0 3px #555;
