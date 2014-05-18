@@ -186,8 +186,9 @@ div.wpcf7-response-output {
 .ask-my-question-link a {
     color: #fff;
     font-size: 16px;
-    line-height: 96px;
+    line-height: 67px;
     text-transform: uppercase;
+    text-decoration: none !important;
 }
 
 .ask-my-question-form {
