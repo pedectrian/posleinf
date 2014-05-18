@@ -826,7 +826,9 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
 {
 	color: #3156A3;
 }
-
+.footer_top_sidebar_container {
+    margin-bottom: 50px;
+}
 .footer_top_sidebar_container input[type="text"],
 .footer_top_sidebar_container input[type="email"]
 {

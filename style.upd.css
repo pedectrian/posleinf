@@ -168,3 +168,9 @@ body * {
 .home_box .news .text {
     height: 65px !important;
 }
+.grey-title {
+    color: #5a6266;
+    text-transform: uppercase;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
