@@ -832,7 +832,8 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
 .footer_top_sidebar_container input[type="text"],
 .footer_top_sidebar_container input[type="email"],
 .wpb_row .wpcf7-form input[type="text"],
-.wpb_row .wpcf7-form input[type="email"]
+.wpb_row .wpcf7-form input[type="email"],
+.wpb_row .wpcf7-form textarea
 {
     color: rgb(155, 155, 155);
     border: 1px solid rgb(205, 205, 205);
@@ -846,6 +847,10 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
     border-radius: 6px;
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
+}
+
+.wpb_row .wpcf7-form textarea {
+    width: 610px;
 }
 
 .footer_top_sidebar_container input[type="submit"],
