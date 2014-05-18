@@ -179,6 +179,16 @@ div.wpcf7-response-output {
     margin: 0 !important;
     padding: 15px !important;
 }
+.ask-my-question-link {
+    cursor: pointer;
+}
+
+.ask-my-question-link a {
+    color: #fff;
+    font-size: 16px;
+    line-height: 96px;
+    text-transform: uppercase;
+}
 
 .ask-my-question-form {
     display: none;
