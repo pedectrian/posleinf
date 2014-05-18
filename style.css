@@ -850,6 +850,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
     width: 300px;
     padding: 10px;
     font-size: 17px;
+    text-transform: uppercase;
 
     border-radius: 6px;
     -moz-border-radius: 6px;
