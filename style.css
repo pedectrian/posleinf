@@ -856,6 +856,11 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
     -webkit-border-radius: 6px;
 }
 
+.footer_top_sidebar_container input[type="submit"]:hover
+{
+    cursor: pointer;
+    box-shadow: 0 0 3px #555;
+}
 /* --- footer --- */
 .footer_container
 {
