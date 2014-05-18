@@ -171,6 +171,11 @@ body * {
 .grey-title {
     color: #b8bbbc;
     text-transform: uppercase;
-    font-size: 32px;
+    font-size: 29px;
     margin-bottom: 15px;
+}
+
+div.wpcf7-response-output {
+    margin: 0 !important;
+    padding: 15px !important;
 }
