@@ -13,7 +13,13 @@
 		<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php bloginfo("rss2_url"); ?>" />
 		<link rel="pingback" href="<?php bloginfo("pingback_url"); ?>" />
 		<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico" />
-
+        <script type="javascript">
+            jQuery(document).ready(function(){
+                jQuery('.ask-my-question-link').live('click', function(){
+                    jQuery('.ask-my-question-form').fadeIn('slow');
+                })
+            })
+        </script>
 
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.upd.css" />
 		<?php
