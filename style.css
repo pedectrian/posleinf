@@ -859,6 +859,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
     border-radius: 6px;
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
+    vertical-align: top;
 }
 
 .footer_top_sidebar_container input[type="submit"]:hover
