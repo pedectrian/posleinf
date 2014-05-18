@@ -827,7 +827,8 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
 	color: #3156A3;
 }
 
-.footer_top_sidebar_container input[type="text"]
+.footer_top_sidebar_container input[type="text"],
+.footer_top_sidebar_container input[type="email"]
 {
     color: rgb(155, 155, 155);
     border: 1px solid rgb(205, 205, 205);
@@ -849,7 +850,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
     width: 300px;
     padding: 10px;
     font-size: 17px;
-    
+
     border-radius: 6px;
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
