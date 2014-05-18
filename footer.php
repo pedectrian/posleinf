@@ -44,4 +44,11 @@
 		wp_footer();
 		?>
 	</body>
+    <script type="javascript">
+        jQuery(document).ready(function(){
+            jQuery('.ask-my-question-link').live('click', function(){
+                jQuery('.ask-my-question-form').fadeIn('slow');
+            })
+        })
+    </script>
 </html>

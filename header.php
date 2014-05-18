@@ -18,13 +18,6 @@
 		<?php
 		wp_head();
 		?>
-        <script type="javascript">
-            jQuery(document).ready(function(){
-                jQuery('.ask-my-question-link').live('click', function(){
-                    jQuery('.ask-my-question-form').fadeIn('slow');
-                })
-            })
-        </script>
 	</head>
 	<body <?php body_class(); ?>>
 		<div class="site_container<?php echo ($theme_options['layout']=="boxed" || (isset($_COOKIE['mc_layout']) && $_COOKIE['mc_layout']=="boxed") ? ' boxed' : ''); ?>">
