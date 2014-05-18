@@ -836,6 +836,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
     border: 1px solid rgb(205, 205, 205);
     padding: 10px;
     font-size: 17px;
+    font-weight: bold;
     width: 300px;
     margin-right: 10px;
 
@@ -852,6 +853,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
     width: 300px;
     padding: 10px;
     font-size: 17px;
+    font-weight: bold;
     text-transform: uppercase;
 
     border-radius: 6px;
