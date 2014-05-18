@@ -849,8 +849,13 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
     -webkit-border-radius: 6px;
 }
 
+.wpb_row .wpcf7-form input[type="text"],
+.wpb_row .wpcf7-form input[type="email"] {
+    width: 490px !important;
+}
 .wpb_row .wpcf7-form textarea {
-    width: 610px;
+    width: 1000px !important;
+    margin: 10px 0;
 }
 
 .footer_top_sidebar_container input[type="submit"],
