@@ -95,6 +95,12 @@ function pushState(event)
 	}
 };
 jQuery(document).ready(function($){
+
+
+    $('.ask-my-question-link').live('click', function(){
+        $('.ask-my-question-form').fadeIn('slow');
+    });
+
 	//mobile menu
 	$(".mobile_menu select").change(function(){
 		window.location.href = $(this).val();
