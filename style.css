@@ -830,7 +830,9 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
     margin-bottom: 50px;
 }
 .footer_top_sidebar_container input[type="text"],
-.footer_top_sidebar_container input[type="email"]
+.footer_top_sidebar_container input[type="email"],
+.wpb_row .wpcf7-form input[type="text"],
+.wpb_row .wpcf7-form input[type="email"],
 {
     color: rgb(155, 155, 155);
     border: 1px solid rgb(205, 205, 205);
@@ -846,7 +848,8 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
     -webkit-border-radius: 6px;
 }
 
-.footer_top_sidebar_container input[type="submit"]
+.footer_top_sidebar_container input[type="submit"],
+.wpb_row .wpcf7-form input[type="submit"]
 {
     background: #42b3e5;
     border: none;
