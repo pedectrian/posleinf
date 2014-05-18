@@ -1,13 +1,17 @@
 			<?php global $theme_options, $themename; ?>
+            <div class="footer_top_sidebar_container">
+                <div class="footer">
+                    <ul class="footer_banner_box_container clearfix">
+                        <?php
+                        $sidebar = get_post(get_post_meta(get_the_ID(), "page_sidebar_footer_top", true));
+                        if(!(int)get_post_meta($sidebar->ID, "hidden", true) && is_active_sidebar($sidebar->post_name))
+                            dynamic_sidebar($sidebar->post_name);
+                        ?>
+                    </ul>
+                </div>
+            </div>
 			<div class="footer_container">
 				<div class="footer">
-					<ul class="footer_banner_box_container clearfix">
-						<?php
-						$sidebar = get_post(get_post_meta(get_the_ID(), "page_sidebar_footer_top", true));
-						if(!(int)get_post_meta($sidebar->ID, "hidden", true) && is_active_sidebar($sidebar->post_name))
-							dynamic_sidebar($sidebar->post_name);
-						?>
-					</ul>
 					<div class="footer_box_container clearfix">
 						<?php
 						$sidebar = get_post(get_post_meta(get_the_ID(), "page_sidebar_footer_bottom", true));
