@@ -826,6 +826,35 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
 {
 	color: #3156A3;
 }
+
+.footer_top_sidebar_container input[type="text"]
+{
+    color: rgb(155, 155, 155);
+    border: 1px solid rgb(205, 205, 205);
+    padding: 10px;
+    font-size: 17px;
+    width: 300px;
+    margin-right: 10px;
+
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+.footer_top_sidebar_container input[type="submit"]
+{
+    background: #42b3e5;
+    border: none;
+    color: #fff;
+    width: 300px;
+    padding: 10px;
+    font-size: 17px;
+    
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
 /* --- footer --- */
 .footer_container
 {
@@ -836,6 +865,8 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
 	width: 990px;
 	margin-left: auto;
 	margin-right: auto;
+
+    padding-top: 10px;
 }
 .footer .box_header
 {
