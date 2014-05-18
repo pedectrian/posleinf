@@ -191,6 +191,9 @@ div.wpcf7-response-output {
     text-decoration: none !important;
 }
 
+.ask-my-question-link a:hover {
+    text-decoration: none !important;
+}
 .ask-my-question-form {
     display: none;
 }
