@@ -197,3 +197,8 @@ div.wpcf7-response-output {
 .ask-my-question-form {
     display: none;
 }
+
+.footer_top_sidebar_container .wpcf7-form {
+    border-top: 1px solid rgb(184, 187, 188);
+    padding-top: 40px;
+}
