@@ -37,6 +37,10 @@ body {
 .sf-menu li:nth-child(6) a {
     width: 85px !important;
 }
+.sf-menu li:nth-child(8) a {
+    width: 50px;
+    line-height: 34px;
+}
 
 .sf-menu li:hover a,
 .sf-menu li.selected a,
