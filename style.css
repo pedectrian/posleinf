@@ -857,6 +857,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
 
 .wpb_row .wpcf7-form input[type="text"] {
     margin-right: 10px !important;
+    margin-bottom: 10px !important;
 }
 .wpb_row .wpcf7-form textarea {
     width: 989px !important;
@@ -871,7 +872,7 @@ span.wpcf7-form-control-wrap {
     background: #42b3e5;
     border: none;
     color: #fff;
-    width: 300px;
+    width: 321px;
     padding: 10px;
     font-size: 17px;
     font-weight: bold;
