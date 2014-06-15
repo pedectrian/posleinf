@@ -831,11 +831,12 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
 }
 .footer_top_sidebar_container input[type="text"],
 .footer_top_sidebar_container input[type="email"],
+.footer_top_sidebar_container textarea,
 .wpb_row .wpcf7-form input[type="text"],
 .wpb_row .wpcf7-form input[type="email"],
 .wpb_row .wpcf7-form textarea
 {
-    color: rgb(155, 155, 155);
+    color: rgb(205, 205, 205);
     border: 1px solid rgb(205, 205, 205);
     padding: 10px;
     font-size: 17px;
