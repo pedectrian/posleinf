@@ -15,32 +15,6 @@ body {
     padding: 15px 5px 15px 7px !important;
     font-size: 12px !important;
 }
-.sf-menu li:first-child a {
-    padding-left: 0 !important;
-}
-
-.sf-menu li:nth-child(1) a {
-    width: 53px !important;
-}
-.sf-menu li:nth-child(2) a {
-    width: 85px !important;
-}
-.sf-menu li:nth-child(3) a {
-    width: 137px !important;
-}
-.sf-menu li:nth-child(4) a {
-    width: 149px !important;
-}
-.sf-menu li:nth-child(5) a {
-    width: 122px !important;
-}
-.sf-menu li:nth-child(6) a {
-    width: 85px !important;
-}
-.sf-menu li:nth-child(8) a {
-    width: 50px;
-    line-height: 34px;
-}
 
 .sf-menu li:hover a,
 .sf-menu li.selected a,
