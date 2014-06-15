@@ -188,25 +188,28 @@ b {
 .sf-menu.header_right .sub-menu {
     top: 47px;
     width: 1000px;
-    display: block;
     left: 0;
     margin-bottom: 0;
     padding-bottom: 0;
     background: #42b3e5 !important;
 }
-
+.sf-menu li:hover a .sub-menu,
+.sf-menu li.current-menu-item a .sub-menu,
+{
+    display: block;
+}
 .sf-menu.header_right .sub-menu li {
     margin: 0;
     padding: 0;
     width: auto;
 }
 
-.sf-menu  .sub-menu li:hover a,
-.sf-menu  .sub-menu li.selected a,
-.sf-menu  .sub-menu li.current-menu-item a,
-.sf-menu  .sub-menu li.current-menu-ancestor a {
-    background: #42b3e5 !important;
-    color: #fff !important;
+.sf-menu .sub-menu li:hover a,
+.sf-menu .sub-menu li.selected a,
+.sf-menu .sub-menu li.current-menu-item a,
+.sf-menu .sub-menu li.current-menu-ancestor a {
+    background: #fff !important;
+    color: #333 !important;
 }
 
 .header_container {
