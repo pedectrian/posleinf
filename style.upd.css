@@ -210,7 +210,7 @@ b {
 .sf-menu .sub-menu > li.selected a,
 .sf-menu .sub-menu > li.current-menu-item a,
 .sf-menu .sub-menu > li.current-menu-ancestor a {
-    background: #fff !important;
+    background: #fff url('images/drop_down_menu_bg.png') repeat-x !important;
     color: #333 !important;
 }
 ul.sub-menu:before {
