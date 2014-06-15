@@ -190,14 +190,25 @@ b {
     width: 1000px;
     display: block;
     left: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    background: #42b3e5 !important;
 }
 
 .sf-menu.header_right .sub-menu li {
     margin: 0;
     padding: 0;
     width: auto;
-
 }
+
+.sf-menu  .sub-menu li:hover a,
+.sf-menu  .sub-menu li.selected a,
+.sf-menu  .sub-menu li.current-menu-item a,
+.sf-menu  .sub-menu li.current-menu-ancestor a {
+    background: #42b3e5 !important;
+    color: #fff !important;
+}
+
 .header_container {
     box-shadow: 0 3px 7px #CCC;
     position: fixed;
