@@ -264,4 +264,8 @@ ul.sub-menu:after {
 .footer_banner_box_container .textwidget {
     width: 49%;
     display: inline-block;
+    vertical-align: top;
+}
+.footer_top_sidebar_container .wpcf7-form {
+    padding: 40px 70px;
 }
