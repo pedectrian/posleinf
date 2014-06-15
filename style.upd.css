@@ -7,6 +7,9 @@
 body {
     font-size: 14px !important;
 }
+.sf-menu {
+    position: relative;
+}
 .sf-menu li a,
 .sf-menu li a:visited {
     line-height: 17px;
@@ -28,6 +31,7 @@ body {
 .sf-menu li  {
     height: auto !important;
     margin-left: 0 !important;
+    position: static;
 }
 
 .slider_content h1 {
