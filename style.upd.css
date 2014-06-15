@@ -41,9 +41,9 @@ body {
     margin-top: 0 !important;
 }
 .copyright_left {
-    float: none;
-    display: block;
-    text-align: center;
+    float: none !important;
+    display: block !important;
+    text-align: center !important;
 }
 
 .copyright_left img {
@@ -51,7 +51,7 @@ body {
 }
 .copyright_right {
     width: 700px !important;
-    text-align: center;
+    text-align: center !important;
 }
 
 body * {
