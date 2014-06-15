@@ -851,6 +851,10 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
     -webkit-border-radius: 6px;
 }
 
+.footer_top_sidebar_container textarea {
+    height: 188px;
+}
+
 .wpb_row .wpcf7-form input[type="text"],
 .wpb_row .wpcf7-form input[type="email"] {
     width: 488px !important;
