@@ -10,7 +10,6 @@ body {
 .sf-menu li a,
 .sf-menu li a:visited {
     background: url("images/menu-sep.png") center right no-repeat;
-    width: 100px;
     line-height: 17px;
     padding: 15px 5px 15px 7px !important;
     font-size: 12px !important;
