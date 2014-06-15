@@ -208,6 +208,7 @@ b {
 
 .sf-menu .sub-menu > li a {
     background: #42b3e5 url('images/drop_down_menu_bg.png') repeat-x !important;
+    color: #fff !important;
 }
 .sf-menu .sub-menu > li:hover a,
 .sf-menu .sub-menu > li.selected a,
@@ -230,7 +231,7 @@ ul.sub-menu:before {
 ul.sub-menu:after {
     content: " ";
     background: url('images/drop_down_menu_bg.png') repeat-x !important;
-    width: 1000px;
+    width: 2000px;
     height: 47px;
     display: block;
     position: absolute;
