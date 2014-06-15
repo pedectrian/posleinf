@@ -8,7 +8,7 @@ body {
     font-size: 14px !important;
 }
 .sf-menu {
-    position: relative;
+    position: relative !important;
 }
 .sf-menu li a,
 .sf-menu li a:visited {
@@ -31,7 +31,7 @@ body {
 .sf-menu li  {
     height: auto !important;
     margin-left: 0 !important;
-    position: static;
+    position: static !important;
 }
 
 .slider_content h1 {
