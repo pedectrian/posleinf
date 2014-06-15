@@ -192,6 +192,7 @@ b {
     margin-bottom: 0;
     padding-bottom: 0;
     background: #42b3e5 !important;
+    border: none !important;
 }
 .sf-menu li:hover a .sub-menu,
 .sf-menu li.current-menu-item a .sub-menu,
@@ -204,10 +205,10 @@ b {
     width: auto;
 }
 
-.sf-menu .sub-menu li:hover a,
-.sf-menu .sub-menu li.selected a,
-.sf-menu .sub-menu li.current-menu-item a,
-.sf-menu .sub-menu li.current-menu-ancestor a {
+.sf-menu .sub-menu > li:hover a,
+.sf-menu .sub-menu > li.selected a,
+.sf-menu .sub-menu > li.current-menu-item a,
+.sf-menu .sub-menu > li.current-menu-ancestor a {
     background: #fff !important;
     color: #333 !important;
 }
