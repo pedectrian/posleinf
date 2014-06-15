@@ -206,6 +206,9 @@ b {
     width: auto;
 }
 
+.sf-menu .sub-menu > li a {
+    background: #42b3e5 url('images/drop_down_menu_bg.png') repeat-x !important;
+}
 .sf-menu .sub-menu > li:hover a,
 .sf-menu .sub-menu > li.selected a,
 .sf-menu .sub-menu > li.current-menu-item a,
@@ -220,7 +223,19 @@ ul.sub-menu:before {
     height: 47px;
     display: block;
     position: absolute;
-    margin-left: -1000px;
+    top: 0;
+    left: -1000px;
+}
+
+ul.sub-menu:after {
+    content: " ";
+    background: url('images/drop_down_menu_bg.png') repeat-x !important;
+    width: 1000px;
+    height: 47px;
+    display: block;
+    position: absolute;
+    top: 47px;
+    left: -1000px;
 }
 .header_container {
     box-shadow: 0 3px 7px #CCC;
