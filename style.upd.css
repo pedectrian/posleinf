@@ -9,7 +9,6 @@ body {
 }
 .sf-menu li a,
 .sf-menu li a:visited {
-    background: #42b3e5;
     line-height: 17px;
     padding: 15px 5px 15px 7px !important;
     font-size: 13px !important;
@@ -22,8 +21,8 @@ body {
 .sf-menu li.selected a,
 .sf-menu li.current-menu-item a,
 .sf-menu li.current-menu-ancestor a {
-    color: #1d89e4 !important;
-    background: url("images/menu-sep.png") center right no-repeat !important;
+    background: #42b3e5;
+    color: #fff;
 }
 .sf-menu li{
     height: auto !important;
@@ -187,5 +186,9 @@ b {
 }
 
 .header {
-    padding: 5px 0 0 0;
+    padding: 5px 0 0 0 !important;
+}
+
+.header_left {
+    width: 230px;
 }
