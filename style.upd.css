@@ -185,8 +185,17 @@ div.wpcf7-response-output {
 b {
     color: #000;
 }
-#header_container {
+
+.header_container {
     box-shadow: 0 3px 7px #CCC;
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+}
+.admin-bar .header_container {
+    top: 50px;
 }
 .header {
     padding: 0 !important;
