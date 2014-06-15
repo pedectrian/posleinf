@@ -185,11 +185,18 @@ div.wpcf7-response-output {
 b {
     color: #000;
 }
-
+#header_container {
+    box-shadow: 0 3px 7px #CCC;
+}
 .header {
     padding: 0 !important;
 }
 
 .header_left {
     width: 230px !important;
+    padding-top: 2px;
+}
+
+.theme_page {
+    margin-top: 7px !important;
 }
