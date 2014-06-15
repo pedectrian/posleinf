@@ -261,3 +261,7 @@ ul.sub-menu:after {
 .theme_page {
     margin-top: 7px !important;
 }
+.footer_banner_box_container .textwidget {
+    width: 49%;
+    display: inline-block;
+}
