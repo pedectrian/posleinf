@@ -18,10 +18,10 @@ body {
     text-transform: uppercase;
 }
 
-.sf-menu > li:hover a,
-.sf-menu > li.selected a,
-.sf-menu > li.current-menu-item a,
-.sf-menu > li.current-menu-ancestor a {
+.sf-menu > li:hover > a,
+.sf-menu > li.selected > a,
+.sf-menu > li.current-menu-item > a,
+.sf-menu > li.current-menu-ancestor > a {
     background: #42b3e5 !important;
     color: #fff !important;
 }
