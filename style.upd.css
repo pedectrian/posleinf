@@ -185,7 +185,19 @@ div.wpcf7-response-output {
 b {
     color: #000;
 }
+.sf-menu.header_right .sub-menu {
+    top: 47px;
+    width: 1000px;
+    display: block;
+    left: 0;
+}
 
+.sf-menu.header_right .sub-menu li {
+    margin: 0;
+    padding: 0;
+    width: auto;
+
+}
 .header_container {
     box-shadow: 0 3px 7px #CCC;
     position: fixed;
