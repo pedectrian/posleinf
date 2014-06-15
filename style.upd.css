@@ -215,7 +215,7 @@ b {
 .sf-menu .sub-menu > li.current-menu-item a,
 .sf-menu .sub-menu > li.current-menu-ancestor a {
     background: #fff url('images/drop_down_menu_bg.png') repeat-x !important;
-    color: #333 !important;
+    color: #42b3e5 !important;
 }
 ul.sub-menu:before {
     content: " ";
@@ -260,4 +260,5 @@ ul.sub-menu:after {
 
 .theme_page {
     margin-top: 7px !important;
+    padding-top: 100px !important;
 }
