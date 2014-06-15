@@ -21,10 +21,10 @@ body {
 .sf-menu li.selected a,
 .sf-menu li.current-menu-item a,
 .sf-menu li.current-menu-ancestor a {
-    background: #42b3e5;
-    color: #fff;
+    background: #42b3e5 !important;
+    color: #fff !important;
 }
-.sf-menu li{
+.sf-menu li  {
     height: auto !important;
     margin-left: 0 !important;
 }
@@ -190,5 +190,5 @@ b {
 }
 
 .header_left {
-    width: 230px;
+    width: 230px !important;
 }
