@@ -212,7 +212,15 @@ b {
     background: #fff !important;
     color: #333 !important;
 }
-
+ul.sub-menu:before {
+    content: " ";
+    background: #42B3E5;
+    width: 1000px;
+    height: 47px;
+    display: block;
+    position: absolute;
+    margin-left: -1000px;
+}
 .header_container {
     box-shadow: 0 3px 7px #CCC;
     position: fixed;
