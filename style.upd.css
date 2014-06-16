@@ -298,6 +298,7 @@ ul.sub-menu:after {
     margin-top: 200px;
     text-align: center;
     padding: 20px;
+    line-height: 18px;
 }
 
 .popup-enter {
@@ -316,7 +317,6 @@ ul.sub-menu:after {
     border-radius: 6px;
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
-    line-height: 18px;
 
     border: none !important;
 }
