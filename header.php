@@ -3,6 +3,8 @@ $showPopup = true;
 if(isset($_GET['agreed']) || isset($_COOKIE['agreed'])) {
     setcookie('agreed', $_GET['agreed']);
     $showPopup = false;
+} elseif(isset($_COOKIE['agreed'])) {
+    $showPopup = false;
 }
 ?>
 <!DOCTYPE html>
