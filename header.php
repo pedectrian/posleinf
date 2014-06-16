@@ -1,3 +1,10 @@
+<?php
+$showPopup = true;
+if(isset($_GET['agreed']) || isset($_COOKIE['agreed'])) {
+    setcookie('agreed', $_GET['agreed']);
+    $showPopup = false;
+}
+?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 	<?php global $theme_options; ?>
@@ -22,9 +29,7 @@
 	</head>
 	<body <?php body_class(); ?>>
         <?php
-            if(isset($_GET['agreed']) || isset($_COOKIE['agreed'])) {
-                setcookie('agreed', $_GET['agreed']);
-            } else {
+            if($showPopup) {
         ?>
         <div class="overlay">
             <div class="popup-window">
