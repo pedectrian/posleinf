@@ -332,6 +332,7 @@ ul.sub-menu:after {
     margin: 10px 8px !important;
 }
 
+.vc-carousel-indicators li:hover,
 .vc-carousel-indicators li.vc-active {
     background: #32ABD6 !important;
     border: 4px solid #fff !important;
