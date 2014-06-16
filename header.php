@@ -28,6 +28,7 @@ if(isset($_GET['agreed'])) {
 		wp_head();
 		?>
         <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/index.js"></script>
+        <script src="http://malsup.github.com/jquery.cycle2.js"></script>
 	</head>
 	<body <?php body_class(); ?>>
         <?php

@@ -320,3 +320,8 @@ ul.sub-menu:after {
 
     border: none !important;
 }
+.vc-left,
+.vc-right {
+    display: none;
+    opacity: 0;
+}
