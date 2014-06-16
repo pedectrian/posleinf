@@ -296,4 +296,25 @@ ul.sub-menu:after {
     border: #EEF7F6 solid 6px;
     margin: 0 auto;
     margin-top: 200px;
+    text-align: center;
+    padding: 20px;
+}
+
+.popup-enter {
+    margin: 0 auto;
+    display: block;
+    background: #42B3E5;
+    border: none;
+    color: #FFF;
+    width: 321px;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    vertical-align: top;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+
+    border: none !important;
 }
