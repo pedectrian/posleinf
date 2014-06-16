@@ -290,7 +290,7 @@ ul.sub-menu:after {
 }
 .popup-window {
     width: 400px;
-    height: 400px;
+    height: 100px;
     background: #FFF;
     border-radius: 4px;
     border: #EEF7F6 solid 6px;
@@ -302,6 +302,7 @@ ul.sub-menu:after {
 
 .popup-enter {
     margin: 0 auto;
+    margin-top: 20px;
     display: block;
     background: #42B3E5;
     border: none;
