@@ -15,6 +15,7 @@
 		<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico" />
 
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.upd.css" />
+        <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/index.js"></script>
 		<?php
 		wp_head();
 		?>
