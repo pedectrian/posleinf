@@ -21,12 +21,18 @@
         <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/index.js"></script>
 	</head>
 	<body <?php body_class(); ?>>
+        <?php
+            if(isset($_GET['agreed']) || isset($_COOKIE['agreed'])) {
+                setcookie('agreed', $_GET['agreed']);
+            } else {
+        ?>
         <div class="overlay">
             <div class="popup-window">
                 Данный раздел предназначен только для медицинских и фармацевтических работников. Информация, представленная в этом разделе, не предназначена для самостоятельной диагностики или лечения. Если Вы медицинский или фармацевтический работник, нажмите кнопку
                 <a class="popup-enter" href="?agreed=1">Войти</a>
             </div>
         </div>
+        <?php } ?>
 		<div class="site_container<?php echo ($theme_options['layout']=="boxed" || (isset($_COOKIE['mc_layout']) && $_COOKIE['mc_layout']=="boxed") ? ' boxed' : ''); ?>">
 			<?php
 			if((int)$_COOKIE['mc_header_sidebar'])
