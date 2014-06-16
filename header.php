@@ -21,6 +21,9 @@
         <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/index.js"></script>
 	</head>
 	<body <?php body_class(); ?>>
+        <div class="overlay">
+            <div class="popup-window"></div>
+        </div>
 		<div class="site_container<?php echo ($theme_options['layout']=="boxed" || (isset($_COOKIE['mc_layout']) && $_COOKIE['mc_layout']=="boxed") ? ' boxed' : ''); ?>">
 			<?php
 			if((int)$_COOKIE['mc_header_sidebar'])
