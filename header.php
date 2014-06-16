@@ -1,7 +1,7 @@
 <?php
 $showPopup = true;
-if(isset($_GET['agreed']) || isset($_COOKIE['agreed'])) {
-    setcookie('agreed', $_GET['agreed'], 600);
+if(isset($_GET['agreed'])) {
+    setcookie('agreed', $_GET['agreed'], time()+600, "/posleinfarkta/", "ready2dev.ru");
     $showPopup = false;
 } elseif(isset($_COOKIE['agreed'])) {
     $showPopup = false;
