@@ -39,7 +39,7 @@ body {
 
     border-right: 2px solid #fff;
 }
-.sf-menu li {
+.sf-menu li:last-child {
     border-right: none;
 }
 .slider_content h1 {
