@@ -353,6 +353,7 @@ ul.sub-menu:after {
     margin-bottom: 15px;
     cursor: pointer;
 }
-.sign-up-form {
+.sign-up-form,
+.ask-question-form{
     display: none;
 }

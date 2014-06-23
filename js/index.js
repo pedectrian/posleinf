@@ -16,4 +16,8 @@ jQuery(document).ready(function($){
     $('.sign-up-form-title').on('click', function(){
         $('.sign-up-form').toggle("slow", function() {console.log(1)});
     })
+
+    $('.ask-question-form-title').on('click', function(){
+        $('.ask-question-form').toggle("slow", function() {console.log(1)});
+    })
 });
