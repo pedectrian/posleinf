@@ -36,8 +36,12 @@ body {
     height: auto !important;
     margin-left: 0 !important;
     position: static !important;
-}
 
+    border-right: 2px solid #fff;
+}
+.sf-menu li {
+    border-right: none;
+}
 .slider_content h1 {
     font-size: 44px !important;
     margin-top: -35px !important;
