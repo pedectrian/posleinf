@@ -344,7 +344,7 @@ ul.sub-menu:after {
 }
 
 .blue-title {
-    color: #42B3E5;
+    color: #42B3E5 !important;
     font-size: 29px;
     margin-bottom: 15px;
     cursor: pointer;
