@@ -13,4 +13,7 @@ jQuery(document).ready(function($){
         $(this).parent().addClass('current-menu-item');
     });
 
+    $('.sign-up-form-title').on('click', function(){
+        $('sign-up-form').toggle();
+    })
 });

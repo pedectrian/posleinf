@@ -342,3 +342,13 @@ ul.sub-menu:after {
     background: #32ABD6 !important;
     border: 4px solid #fff !important;
 }
+
+.blue-title {
+    color: #42B3E5;
+    font-size: 29px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.sign-up-form {
+    display: none;
+}
