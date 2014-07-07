@@ -15,12 +15,12 @@ jQuery(document).ready(function($){
 
     $('.sign-up-form-title').on('click', function(){
         $('#container-form .popup-window').html($('.sign-up-form').parent().html());
-        $('#container-form .popup-window').fadeIn('slow');
+        $('#container-form').fadeIn('slow');
     });
 
     $('.ask-question-form-title').on('click', function(){
 
-        $('#container-form').html($('.ask-question-form').parent().html());
+        $('#container-form .popup-window').html($('.ask-question-form').parent().html());
         $('#container-form').fadeIn('slow');
     })
 });
