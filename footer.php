@@ -37,6 +37,12 @@
 				</div>
 			</div>
 		</div>
+        <div id="container-form" class="overlay" style="display: none">
+            <div class="popup-window">
+                Данный раздел предназначен только для медицинских и фармацевтических работников. Информация, представленная в этом разделе, не предназначена для самостоятельной диагностики или лечения. Если Вы медицинский или фармацевтический работник, нажмите кнопку
+                <a class="popup-enter" href="?agreed=1">Войти</a>
+            </div>
+        </div>
 		<?php
 		if((int)$theme_options["layout_picker"])
 			require_once("layout_picker/layout_picker.php");

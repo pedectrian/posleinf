@@ -357,3 +357,9 @@ ul.sub-menu:after {
 .ask-question-form{
     display: none;
 }
+.footer_top_sidebar_container {
+    margin-bottom: 50px;
+}
+.vc_progress_bar .vc_single_bar.bar_red .vc_label {
+    color: #000 !important;
+}

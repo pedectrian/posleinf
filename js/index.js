@@ -14,10 +14,21 @@ jQuery(document).ready(function($){
     });
 
     $('.sign-up-form-title').on('click', function(){
-        $('.sign-up-form').toggle("slow", function() {console.log(1)});
-    })
+        $('#container-form').html($('.sign-up-form').parent().html());
+        showPopup();
+    });
 
     $('.ask-question-form-title').on('click', function(){
-        $('.ask-question-form').toggle("slow", function() {console.log(1)});
+
+        $('#container-form').html($('.ask-question-form').parent().html());
+        showPopup();
     })
 });
+
+function showPopup() {
+    $('#container-form').fadeIn('slow');
+}
+
+function hidePopup() {
+    $('#container-form').fadeOut('slow');
+}

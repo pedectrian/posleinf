@@ -32,7 +32,7 @@ if(isset($_GET['agreed'])) {
 	</head>
 	<body <?php body_class(); ?>>
         <?php
-            if($showPopup) {
+            if($showPopup && !is_front_page()) {
         ?>
         <div class="overlay">
             <div class="popup-window">
