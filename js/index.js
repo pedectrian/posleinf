@@ -14,8 +14,8 @@ jQuery(document).ready(function($){
     });
 
     $('.sign-up-form-title').on('click', function(){
-        $('#container-form').html($('.sign-up-form').parent().html());
-        $('#container-form').fadeIn('slow');
+        $('#container-form .popup-window').html($('.sign-up-form').parent().html());
+        $('#container-form .popup-window').fadeIn('slow');
     });
 
     $('.ask-question-form-title').on('click', function(){
