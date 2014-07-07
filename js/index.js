@@ -15,19 +15,15 @@ jQuery(document).ready(function($){
 
     $('.sign-up-form-title').on('click', function(){
         $('#container-form').html($('.sign-up-form').parent().html());
-        showPopup();
+        $('#container-form').fadeIn('slow');
     });
 
     $('.ask-question-form-title').on('click', function(){
 
         $('#container-form').html($('.ask-question-form').parent().html());
-        showPopup();
+        $('#container-form').fadeIn('slow');
     })
 });
-
-function showPopup() {
-    $('#container-form').fadeIn('slow');
-}
 
 function hidePopup() {
     $('#container-form').fadeOut('slow');
