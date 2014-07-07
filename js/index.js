@@ -16,14 +16,14 @@ jQuery(document).ready(function($){
     $('.sign-up-form-title').on('click', function(){
         $('#container-form .popup-window').html($('.sign-up-form').parent().html());
         $('#container-form .sign-up-form-title').css('display', 'none');
-        $('#container-form, .sign-up-form').fadeIn('slow');
+        $('#container-form, #container-form .sign-up-form').fadeIn('slow');
     });
 
     $('.ask-question-form-title').on('click', function(){
 
         $('#container-form .popup-window').html($('.ask-question-form').parent().html());
         $('#container-form .ask-question-form-title').css('display', 'none');
-        $('#container-form, .ask-question-form').fadeIn('slow');
+        $('#container-form, #container-form .ask-question-form').fadeIn('slow');
     })
 });
 

@@ -830,8 +830,11 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul
     margin-bottom: 50px;
 }
 .footer_top_sidebar_container input[type="text"],
+.popup-window input[type="text"],
 .footer_top_sidebar_container input[type="email"],
+.popup-window input[type="email"],
 .footer_top_sidebar_container textarea,
+.popup-window textarea,
 .wpb_row .wpcf7-form input[type="text"],
 .wpb_row .wpcf7-form input[type="email"],
 .wpb_row .wpcf7-form textarea
