@@ -23,7 +23,7 @@ jQuery(document).ready(function($){
     $('.close-sign-up').live('click', function(){
         $('.sign-up-form').css('display', 'none');
         $('#container-form .popup-window').removeClass('popup-window');
-        $('#container-form').attr('id', 'blabla');
+        $('#container-form').attr('id', 'blabla').removeClass('overlay');
         $('.sign-up-form-title').css('display', 'block');
         $(this).remove();
     });
@@ -38,8 +38,8 @@ jQuery(document).ready(function($){
 
     $('.close-ask-question').live('click', function(){
         $('.ask-question-form').css('display', 'none');
-        $('.ask-question-form').unwrap();
-        $('.ask-question-form').unwrap();
+        $('#container-form .popup-window').removeClass('popup-window');
+        $('#container-form').attr('id', 'blabla').removeClass('overlay');
         $('.ask-question-form-title').css('display', 'block');
         $(this).remove();
     });
