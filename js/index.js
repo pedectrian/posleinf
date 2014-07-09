@@ -15,9 +15,14 @@ jQuery(document).ready(function($){
 
     $('.sign-up-form-title').on('click', function(){
         $('.sign-up-form').parent().wrap('<div id="container-form" class="overlay" style="display: none"><div class="popup-window"></div></div>');
-
+        $('#container-form').prepend('<div class="close-icon close-sign-up"></div>');
         $('#container-form .sign-up-form-title').css('display', 'none');
         $('#container-form, #container-form .sign-up-form').fadeIn('slow');
+    });
+    $('.close-sign-up').on('click', function(){
+        $('.sign-up-form').css('display', 'none').unwrap().unwrap();
+        $('.sign-up-form-title').css('display', 'block');
+        $(this).remove();
     });
 
     $('.ask-question-form-title').on('click', function(){
@@ -27,7 +32,3 @@ jQuery(document).ready(function($){
         $('#container-form, #container-form .ask-question-form').fadeIn('slow');
     })
 });
-
-function hidePopup() {
-    $('#container-form').fadeOut('slow');
-}
