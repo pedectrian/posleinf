@@ -15,6 +15,9 @@ jQuery(document).ready(function($){
 
     $('.sign-up-form-title').on('click', function(){
         $('#container-form .popup-window').html($('.sign-up-form').parent().html());
+
+        $('.sign-up-form').parent().wrap('<div id="container-form" class="overlay" style="display: none"><div class="popup-window"></div></div>');
+
         $('#container-form .sign-up-form-title').css('display', 'none');
         $('#container-form, #container-form .sign-up-form').fadeIn('slow');
     });
