@@ -19,7 +19,8 @@ jQuery(document).ready(function($){
         $('#container-form .sign-up-form-title').css('display', 'none');
         $('#container-form, #container-form .sign-up-form').fadeIn('slow');
     });
-    $('.close-sign-up').on('click', function(){
+
+    $('.close-sign-up').live('click', function(){
         $('.sign-up-form').css('display', 'none').unwrap().unwrap();
         $('.sign-up-form-title').css('display', 'block');
         $(this).remove();
@@ -27,8 +28,15 @@ jQuery(document).ready(function($){
 
     $('.ask-question-form-title').on('click', function(){
 
-        $('#container-form .popup-window').html($('.ask-question-form').parent().html());
+        $('.ask-question-form').parent().wrap('<div id="container-form" class="overlay" style="display: none"><div class="popup-window"></div></div>');;
+        $('#container-form .popup-window').prepend('<div class="close-icon close-ask-question"></div>');
         $('#container-form .ask-question-form-title').css('display', 'none');
         $('#container-form, #container-form .ask-question-form').fadeIn('slow');
     })
+
+    $('.close-ask-question').live('click', function(){
+        $('.ask-question-form').css('display', 'none').unwrap().unwrap();
+        $('.ask-question-form-title').css('display', 'block');
+        $(this).remove();
+    });
 });
