@@ -22,8 +22,8 @@ jQuery(document).ready(function($){
 
     $('.close-sign-up').live('click', function(){
         $('.sign-up-form').css('display', 'none');
-        $('.sign-up-form').unwrap('.popup-window');
-        $('.sign-up-form').unwrap('#container-form');
+        $('#container-form .popup-window').removeClass('popup-window');
+        $('#container-form').attr('id', 'blabla');
         $('.sign-up-form-title').css('display', 'block');
         $(this).remove();
     });
