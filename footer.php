@@ -37,10 +37,6 @@
 				</div>
 			</div>
 		</div>
-        <div id="container-form" class="overlay" style="display: none">
-            <div class="popup-window">
-            </div>
-        </div>
 		<?php
 		if((int)$theme_options["layout_picker"])
 			require_once("layout_picker/layout_picker.php");
