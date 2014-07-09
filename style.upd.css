@@ -368,7 +368,7 @@ ul.sub-menu:after {
     color: #000 !important;
 }
 
-.popup-window .footer_top_sidebar_container .wpcf7-form {
+.popup-window .wpcf7-form {
     border-top: none !important;
     padding: 0 !important;
     margin: 0 !important;
