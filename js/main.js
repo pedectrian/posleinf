@@ -101,7 +101,7 @@ jQuery(document).ready(function($){
         $('.ask-my-question-form').fadeIn('slow');
 
         $('html, body').animate({
-            scrollTop: $('.ask-my-question-form').offset().top
+            scrollTop: $('.ask-my-question-form').offset().top - 40
         }, 2000);
     });
 
