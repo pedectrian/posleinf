@@ -23,7 +23,7 @@
 	</head>
 	<body <?php body_class(); ?>>
         <?php
-            if((!isset($_COOKIE['agreed_newvisitor'] && !isset($_GET['agreed'])) && !is_front_page()) {
+            if((!isset($_COOKIE['agreed_newvisitor']) && !isset($_GET['agreed'])) && !is_front_page()) {
         ?>
         <div class="overlay">
             <div class="popup-window">
