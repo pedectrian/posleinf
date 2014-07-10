@@ -330,4 +330,12 @@ function setPostViews($postID)
         update_post_meta($postID, $count_key, $count);
     }
 }
+function set_newuser_cookie() {
+    if ( !is_admin() && isset($_GET['agreed']) && !isset($_COOKIE['agreed_newvisitor'])) {
+        setcookie('agreed_newvisitor', 1, time()+3600*24*100);
+    }
+}
+
+add_action( 'init', 'set_newuser_cookie');
+
 ?>

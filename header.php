@@ -1,12 +1,3 @@
-<?php
-$showPopup = true;
-if(isset($_GET['agreed'])) {
-    setcookie('agreed', $_GET['agreed'], time()+3600);
-    $showPopup = false;
-} elseif(isset($_COOKIE['agreed'])) {
-    $showPopup = false;
-}
-?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 	<?php global $theme_options; ?>
@@ -32,7 +23,7 @@ if(isset($_GET['agreed'])) {
 	</head>
 	<body <?php body_class(); ?>>
         <?php
-            if($showPopup && !is_front_page()) {
+            if(!isset($_COOKIE['agreed_newvisitor']) && !is_front_page()) {
         ?>
         <div class="overlay">
             <div class="popup-window">
