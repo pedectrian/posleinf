@@ -331,9 +331,8 @@ function setPostViews($postID)
     }
 }
 function set_newuser_cookie() {
-    echo is_admin() . ' -- ' . $_GET['agreed'] . '---' . $_COOKIE['agreed_newvisitor'];
     if ( !is_admin() && isset($_GET['agreed']) && !isset($_COOKIE['agreed_newvisitor'])) {
-        setcookie('agreed_newvisitor', 1, time()+3600*24*100);
+        setcookie('agreed_newvisitor', 1, time()+3600, '/');
     }
 }
 
