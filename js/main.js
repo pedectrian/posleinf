@@ -100,9 +100,9 @@ jQuery(document).ready(function($){
     $('.ask-my-question-link').live('click', function(){
         $('.ask-my-question-form').fadeIn('slow');
 
-        $('html, body').animate({
-            scrollTop: $('.ask-my-question-form').offset().top - 70
-        }, 2000);
+//        $('html, body').animate({
+//            scrollTop: $('.ask-my-question-form').offset().top - 70
+//        }, 2000);
     });
 
 	//mobile menu
